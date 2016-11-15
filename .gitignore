@@ -1,1 +1,8 @@
 /Source/*.suo
+
+/Source/Data/obj
+
+/Source/Data/bin
+
+/bin
+/obj
