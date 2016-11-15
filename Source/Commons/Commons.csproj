@@ -39,13 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\EmpleadoPerfil.cs" />
     <Compile Include="Entities\Familia.cs" />
     <Compile Include="Entities\Patente.cs" />
+    <Compile Include="Entities\Telefono.cs" />
+    <Compile Include="Entities\TelefonoTipo.cs" />
     <Compile Include="Entities\Ticket.cs" />
+    <Compile Include="Entities\TicketDetalle.cs" />
     <Compile Include="Entities\TicketEstado.cs" />
     <Compile Include="Entities\TicketTipo.cs" />
     <Compile Include="Entities\Usuario.cs" />
-    <Compile Include="Entities\UsuarioPerfil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

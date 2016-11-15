@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Commons.Entities
 {
-    public class UsuarioPerfil
+    public class TicketDetalle
     {
+        public int ID { get; set; }
+
+        public int TicketID { get; set; }
+
+        public Ticket Ticket { get; set; }
+
     }
 }
