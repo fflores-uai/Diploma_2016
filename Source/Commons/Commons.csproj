@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,9 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Cultura.cs" />
     <Compile Include="Entities\Empleado.cs" />
     <Compile Include="Entities\EmpleadoPerfil.cs" />
     <Compile Include="Entities\Familia.cs" />
+    <Compile Include="Entities\Lenguaje.cs" />
+    <Compile Include="Entities\Pais.cs" />
     <Compile Include="Entities\Patente.cs" />
     <Compile Include="Entities\Telefono.cs" />
     <Compile Include="Entities\TelefonoTipo.cs" />
