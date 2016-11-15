@@ -1,0 +1,7 @@
+D:\WorkGit\UAI\Diploma\Fflores_Diploma\Presentacion.UI\obj\Debug\Presentacion.UI.Properties.Resources.resources
+D:\WorkGit\UAI\Diploma\Fflores_Diploma\Presentacion.UI\obj\Debug\Presentacion.UI.csproj.GenerateResource.Cache
+D:\WorkGit\UAI\Diploma\Fflores_Diploma\Presentacion.UI\bin\Debug\Presentacion.UI.exe.config
+D:\WorkGit\UAI\Diploma\Fflores_Diploma\Presentacion.UI\bin\Debug\Presentacion.UI.exe
+D:\WorkGit\UAI\Diploma\Fflores_Diploma\Presentacion.UI\bin\Debug\Presentacion.UI.pdb
+D:\WorkGit\UAI\Diploma\Fflores_Diploma\Presentacion.UI\obj\Debug\Presentacion.UI.exe
+D:\WorkGit\UAI\Diploma\Fflores_Diploma\Presentacion.UI\obj\Debug\Presentacion.UI.pdb
