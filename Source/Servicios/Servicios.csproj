@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1FEC8FC1-9E47-4D3C-9F87-24FB3CFFB52C}</ProjectGuid>
+    <ProjectGuid>{9B4B3A56-FF71-41AB-9B96-A68AF5E96254}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Commons</RootNamespace>
-    <AssemblyName>Commons</AssemblyName>
+    <RootNamespace>Servicios</RootNamespace>
+    <AssemblyName>Servicios</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,7 +31,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,24 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Compania.cs" />
-    <Compile Include="Entities\Cultura.cs" />
-    <Compile Include="Entities\Empleado.cs" />
-    <Compile Include="Entities\EmpleadoPerfil.cs" />
-    <Compile Include="Entities\Familia.cs" />
-    <Compile Include="Entities\Lenguaje.cs" />
-    <Compile Include="Entities\Pais.cs" />
-    <Compile Include="Entities\Patente.cs" />
-    <Compile Include="Entities\Recursos.cs" />
-    <Compile Include="Entities\Tecnico.cs" />
-    <Compile Include="Entities\TecnicoTipo.cs" />
-    <Compile Include="Entities\Telefono.cs" />
-    <Compile Include="Entities\TelefonoTipo.cs" />
-    <Compile Include="Entities\Ticket.cs" />
-    <Compile Include="Entities\TicketDetalle.cs" />
-    <Compile Include="Entities\TicketEstado.cs" />
-    <Compile Include="Entities\TicketTipo.cs" />
-    <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Encriptacion\Encriptador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Commons.Entities
 {
     public class TicketDetalle
@@ -12,7 +7,15 @@ namespace Commons.Entities
 
         public int TicketID { get; set; }
 
-        public Ticket Ticket { get; set; }
+        public int TecnicoID { get; set; }
 
+        public DateTime FechaCreacion { get; set; }
+
+        public DateTime FechaActualizacion { get; set; }
+
+
+        public Tecnico Tecnico { get; set; }
+
+        public Ticket Ticket { get; set; }
     }
 }
