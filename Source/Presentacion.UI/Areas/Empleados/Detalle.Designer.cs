@@ -1,6 +1,6 @@
 ﻿namespace Presentacion.UI.Areas.Empleados
 {
-    partial class Overview
+    partial class Detalle
     {
         /// <summary>
         /// Required designer variable.

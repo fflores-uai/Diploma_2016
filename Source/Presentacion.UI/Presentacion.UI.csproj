@@ -62,11 +62,11 @@
     <Compile Include="Areas\Empleados\Search.Designer.cs">
       <DependentUpon>Search.cs</DependentUpon>
     </Compile>
-    <Compile Include="Areas\Empleados\Overview.cs">
+    <Compile Include="Areas\Empleados\Detalle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Areas\Empleados\Overview.Designer.cs">
-      <DependentUpon>Overview.cs</DependentUpon>
+    <Compile Include="Areas\Empleados\Detalle.Designer.cs">
+      <DependentUpon>Detalle.cs</DependentUpon>
     </Compile>
     <Compile Include="Areas\Home.cs">
       <SubType>Form</SubType>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentacion.UI.Areas.Empleados
 {
-    public partial class Overview : Form
+    public partial class Detalle : Form
     {
-        public Overview()
+        public Detalle()
         {
             InitializeComponent();
         }
