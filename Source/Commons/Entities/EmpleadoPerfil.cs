@@ -10,6 +10,8 @@ namespace Commons.Entities
 
         public string Apellido { get; set; }
 
+        public string Documento { get; set; }
+
         public List<Telefono> Telefonos { get; set; }
     }
 }

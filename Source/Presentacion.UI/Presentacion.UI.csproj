@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Empleados\EmpleadosSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Areas\Empleados\EmpleadosSearch.Designer.cs">
+      <DependentUpon>EmpleadosSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Areas\Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,7 +87,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Clientes\" />
     <Folder Include="Areas\Seguridad\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
