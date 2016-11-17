@@ -14,6 +14,7 @@ namespace Commons.Entities
 
         public int EmpleadoID { get; set; }
 
+        [EmailAddress]
         public string Email { get; set; }
 
         public bool Activo { get; set; }

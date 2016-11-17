@@ -42,10 +42,12 @@
   <ItemGroup>
     <Compile Include="Entities\Compania.cs" />
     <Compile Include="Entities\Cultura.cs" />
+    <Compile Include="Entities\Direccion.cs" />
     <Compile Include="Entities\Empleado.cs" />
     <Compile Include="Entities\EmpleadoPerfil.cs" />
     <Compile Include="Entities\Familia.cs" />
     <Compile Include="Entities\Lenguaje.cs" />
+    <Compile Include="Entities\Localidad.cs" />
     <Compile Include="Entities\Pais.cs" />
     <Compile Include="Entities\Patente.cs" />
     <Compile Include="Entities\Recursos.cs" />

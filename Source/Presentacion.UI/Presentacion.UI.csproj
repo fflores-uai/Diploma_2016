@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Configuracion\BaseDeDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Areas\Configuracion\BaseDeDatos.Designer.cs">
+      <DependentUpon>BaseDeDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Configuracion\Sistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Areas\Configuracion\Sistema.Designer.cs">
+      <DependentUpon>Sistema.cs</DependentUpon>
+    </Compile>
     <Compile Include="Areas\Empleados\Search.cs">
       <SubType>Form</SubType>
     </Compile>
