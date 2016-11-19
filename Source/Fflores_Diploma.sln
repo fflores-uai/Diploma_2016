@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.UI", "Presentacion.UI\Presentacion.UI.csproj", "{18280775-50B4-471A-94D1-D02C4E42E232}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commons", "Commons\Commons.csproj", "{1FEC8FC1-9E47-4D3C-9F87-24FB3CFFB52C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicios", "Servicios\Servicios.csproj", "{9B4B3A56-FF71-41AB-9B96-A68AF5E96254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.Test", "Presentacion.Test\Presentacion.Test.csproj", "{B993D37B-164C-4862-AF17-CD54D82BA107}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9B4B3A56-FF71-41AB-9B96-A68AF5E96254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B4B3A56-FF71-41AB-9B96-A68AF5E96254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B4B3A56-FF71-41AB-9B96-A68AF5E96254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B993D37B-164C-4862-AF17-CD54D82BA107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B993D37B-164C-4862-AF17-CD54D82BA107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B993D37B-164C-4862-AF17-CD54D82BA107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B993D37B-164C-4862-AF17-CD54D82BA107}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
