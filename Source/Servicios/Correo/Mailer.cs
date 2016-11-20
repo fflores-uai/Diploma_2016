@@ -10,41 +10,45 @@ namespace Servicios.Correo
             string body,
             string subject,
             string to,
-            string from)
+            string from,
+            bool isHtml = false)
         {
             var destino = new MailAddress(to);
             var origen = new MailAddress(from);
+            var credentials = new NetworkCredential("correossmtp2016@gmail.com", "Novedad.01");
 
-            var mail = new MailMessage(origen, destino)
+            using (MailMessage mail = new MailMessage())
             {
-                Subject = subject,
-                Body = body,
-                BodyEncoding = UTF8Encoding.UTF8,
-                Priority = MailPriority.Normal,
-                IsBodyHtml = false,
-                DeliveryNotificationOptions = DeliveryNotificationOptions.OnFailure,
-            };
+                mail.From = origen;
+                mail.To.Add(destino);
+                mail.Subject = subject;
+                mail.Body = body;
+                mail.BodyEncoding = UTF8Encoding.UTF8;
+                mail.Priority = MailPriority.Normal;
+                mail.DeliveryNotificationOptions = DeliveryNotificationOptions.OnFailure;
+                mail.IsBodyHtml = isHtml;
 
-            SmtpClient smtpGmail = new SmtpClient()
-            {
-                Port = 587,
-                Host = "smtp.gmail.com",
-                Credentials = new NetworkCredential("correossmtp2016@gmail.com", "Novedad.01"),
-                EnableSsl = true,
-                UseDefaultCredentials = false,
-                DeliveryMethod  = SmtpDeliveryMethod.Network
-            };
+                using (var client = new SmtpClient())
+                {
+                    client.Port = 587;
+                    client.Host = "smtp.gmail.com";
+                    client.Credentials = credentials;
+                    client.EnableSsl = true;
+                    client.DeliveryMethod = SmtpDeliveryMethod.Network;
 
-            try
-            {
-                smtpGmail.Send(mail);
-                return "OK";
+                    try
+                    {
+                        client.Send(mail);
+                        return "Email Sent";
+                    }
+                    catch (System.Exception ex)
+                    {
+                        client.Dispose();
+                        return string.Format("ERROR : {0}", ex);
+                    }
+                }
             }
-            catch (System.Exception ex)
-            {
-                smtpGmail.Dispose();
-                return string.Format("ERROR : {0}", ex);
-            }
+            ;
         }
     }
 }

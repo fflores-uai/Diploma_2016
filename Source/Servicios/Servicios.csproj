@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Encriptacion\Encriptador.cs" />
     <Compile Include="Correo\Mailer.cs" />
+    <Compile Include="Log\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
