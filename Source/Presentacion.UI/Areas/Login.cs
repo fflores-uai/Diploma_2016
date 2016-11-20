@@ -7,14 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DevComponents.DotNetBar;
 
 namespace Presentacion.UI.Areas
 {
-    public partial class Login : Form
+    public partial class Login : DevComponents.DotNetBar.Metro.MetroForm
     {
         public Login()
         {
             InitializeComponent();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

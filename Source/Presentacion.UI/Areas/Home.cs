@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Presentacion.UI.Areas
 {
-    public partial class Home : Form
+    public partial class Home : DevComponents.DotNetBar.Metro.MetroForm
     {
         public Home()
         {
