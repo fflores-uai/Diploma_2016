@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commons", "Commons\Commons.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicios", "Servicios\Servicios.csproj", "{9B4B3A56-FF71-41AB-9B96-A68AF5E96254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.UI.Test", "Presentacion.Test\Presentacion.UI.Test.csproj", "{B993D37B-164C-4862-AF17-CD54D82BA107}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C2367D9E-F47F-4627-B9D3-C6CB63C48602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.UI.Test", "Test\Presentacion.Test\Presentacion.UI.Test.csproj", "{B993D37B-164C-4862-AF17-CD54D82BA107}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

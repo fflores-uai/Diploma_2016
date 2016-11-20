@@ -196,6 +196,7 @@
             this.btnAcceder.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnAcceder.TabIndex = 12;
             this.btnAcceder.Text = "Acceder";
+            this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
             // btnCacelar
             // 
@@ -244,7 +245,6 @@
             this.Controls.Add(this.dockSite7);
             this.Controls.Add(this.dockSite8);
             this.DoubleBuffered = true;
-            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.Text = "Login";
