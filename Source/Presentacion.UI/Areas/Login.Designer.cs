@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.dotNetBarManager1 = new DevComponents.DotNetBar.DotNetBarManager(this.components);
             this.dockSite4 = new DevComponents.DotNetBar.DockSite();
             this.dockSite1 = new DevComponents.DotNetBar.DockSite();
@@ -44,7 +45,6 @@
             this.txtUsuarioClave = new System.Windows.Forms.TextBox();
             this.btnAcceder = new DevComponents.DotNetBar.ButtonX();
             this.btnCacelar = new DevComponents.DotNetBar.ButtonX();
-            this.lblAcceder = new DevComponents.DotNetBar.LabelX();
             this.SuspendLayout();
             // 
             // dotNetBarManager1
@@ -75,9 +75,9 @@
             this.dockSite4.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dockSite4.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite4.Location = new System.Drawing.Point(0, 307);
+            this.dockSite4.Location = new System.Drawing.Point(0, 495);
             this.dockSite4.Name = "dockSite4";
-            this.dockSite4.Size = new System.Drawing.Size(350, 0);
+            this.dockSite4.Size = new System.Drawing.Size(340, 0);
             this.dockSite4.TabIndex = 3;
             this.dockSite4.TabStop = false;
             // 
@@ -88,7 +88,7 @@
             this.dockSite1.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
             this.dockSite1.Location = new System.Drawing.Point(0, 0);
             this.dockSite1.Name = "dockSite1";
-            this.dockSite1.Size = new System.Drawing.Size(0, 307);
+            this.dockSite1.Size = new System.Drawing.Size(0, 495);
             this.dockSite1.TabIndex = 0;
             this.dockSite1.TabStop = false;
             // 
@@ -97,9 +97,9 @@
             this.dockSite2.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite2.Dock = System.Windows.Forms.DockStyle.Right;
             this.dockSite2.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite2.Location = new System.Drawing.Point(350, 0);
+            this.dockSite2.Location = new System.Drawing.Point(340, 0);
             this.dockSite2.Name = "dockSite2";
-            this.dockSite2.Size = new System.Drawing.Size(0, 307);
+            this.dockSite2.Size = new System.Drawing.Size(0, 495);
             this.dockSite2.TabIndex = 1;
             this.dockSite2.TabStop = false;
             // 
@@ -107,9 +107,9 @@
             // 
             this.dockSite8.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dockSite8.Location = new System.Drawing.Point(0, 307);
+            this.dockSite8.Location = new System.Drawing.Point(0, 495);
             this.dockSite8.Name = "dockSite8";
-            this.dockSite8.Size = new System.Drawing.Size(350, 0);
+            this.dockSite8.Size = new System.Drawing.Size(340, 0);
             this.dockSite8.TabIndex = 7;
             this.dockSite8.TabStop = false;
             // 
@@ -119,7 +119,7 @@
             this.dockSite5.Dock = System.Windows.Forms.DockStyle.Left;
             this.dockSite5.Location = new System.Drawing.Point(0, 0);
             this.dockSite5.Name = "dockSite5";
-            this.dockSite5.Size = new System.Drawing.Size(0, 307);
+            this.dockSite5.Size = new System.Drawing.Size(0, 495);
             this.dockSite5.TabIndex = 4;
             this.dockSite5.TabStop = false;
             // 
@@ -127,9 +127,9 @@
             // 
             this.dockSite6.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.dockSite6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.dockSite6.Location = new System.Drawing.Point(350, 0);
+            this.dockSite6.Location = new System.Drawing.Point(340, 0);
             this.dockSite6.Name = "dockSite6";
-            this.dockSite6.Size = new System.Drawing.Size(0, 307);
+            this.dockSite6.Size = new System.Drawing.Size(0, 495);
             this.dockSite6.TabIndex = 5;
             this.dockSite6.TabStop = false;
             // 
@@ -139,7 +139,7 @@
             this.dockSite7.Dock = System.Windows.Forms.DockStyle.Top;
             this.dockSite7.Location = new System.Drawing.Point(0, 0);
             this.dockSite7.Name = "dockSite7";
-            this.dockSite7.Size = new System.Drawing.Size(350, 0);
+            this.dockSite7.Size = new System.Drawing.Size(340, 0);
             this.dockSite7.TabIndex = 6;
             this.dockSite7.TabStop = false;
             // 
@@ -150,86 +150,90 @@
             this.dockSite3.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
             this.dockSite3.Location = new System.Drawing.Point(0, 0);
             this.dockSite3.Name = "dockSite3";
-            this.dockSite3.Size = new System.Drawing.Size(350, 0);
+            this.dockSite3.Size = new System.Drawing.Size(340, 0);
             this.dockSite3.TabIndex = 2;
             this.dockSite3.TabStop = false;
             // 
             // txtUsuarioNombre
             // 
-            this.txtUsuarioNombre.Location = new System.Drawing.Point(36, 103);
+            this.txtUsuarioNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuarioNombre.Location = new System.Drawing.Point(37, 180);
             this.txtUsuarioNombre.Name = "txtUsuarioNombre";
-            this.txtUsuarioNombre.Size = new System.Drawing.Size(273, 20);
-            this.txtUsuarioNombre.TabIndex = 8;
+            this.txtUsuarioNombre.Size = new System.Drawing.Size(270, 26);
+            this.txtUsuarioNombre.TabIndex = 1;
             // 
             // lblUsuarioNombre
             // 
             this.lblUsuarioNombre.AutoSize = true;
-            this.lblUsuarioNombre.Location = new System.Drawing.Point(33, 87);
+            this.lblUsuarioNombre.BackColor = System.Drawing.Color.Transparent;
+            this.lblUsuarioNombre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuarioNombre.ForeColor = System.Drawing.Color.White;
+            this.lblUsuarioNombre.Location = new System.Drawing.Point(138, 153);
             this.lblUsuarioNombre.Name = "lblUsuarioNombre";
-            this.lblUsuarioNombre.Size = new System.Drawing.Size(43, 13);
+            this.lblUsuarioNombre.Size = new System.Drawing.Size(66, 21);
             this.lblUsuarioNombre.TabIndex = 9;
             this.lblUsuarioNombre.Text = "Usuario";
             // 
             // lblUsuarioClave
             // 
             this.lblUsuarioClave.AutoSize = true;
-            this.lblUsuarioClave.Location = new System.Drawing.Point(33, 140);
+            this.lblUsuarioClave.BackColor = System.Drawing.Color.Transparent;
+            this.lblUsuarioClave.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuarioClave.ForeColor = System.Drawing.Color.White;
+            this.lblUsuarioClave.Location = new System.Drawing.Point(119, 222);
             this.lblUsuarioClave.Name = "lblUsuarioClave";
-            this.lblUsuarioClave.Size = new System.Drawing.Size(34, 13);
+            this.lblUsuarioClave.Size = new System.Drawing.Size(103, 21);
             this.lblUsuarioClave.TabIndex = 11;
-            this.lblUsuarioClave.Text = "Clave";
+            this.lblUsuarioClave.Text = "Contraseña";
             // 
             // txtUsuarioClave
             // 
-            this.txtUsuarioClave.Location = new System.Drawing.Point(36, 156);
+            this.txtUsuarioClave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuarioClave.Location = new System.Drawing.Point(37, 248);
             this.txtUsuarioClave.Name = "txtUsuarioClave";
-            this.txtUsuarioClave.Size = new System.Drawing.Size(273, 20);
-            this.txtUsuarioClave.TabIndex = 10;
+            this.txtUsuarioClave.Size = new System.Drawing.Size(270, 26);
+            this.txtUsuarioClave.TabIndex = 2;
+            this.txtUsuarioClave.UseSystemPasswordChar = true;
             // 
             // btnAcceder
             // 
             this.btnAcceder.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAcceder.BackColor = System.Drawing.Color.Black;
+            this.btnAcceder.BackgroundImage = global::Presentacion.UI.Properties.Resources.BotonBlack;
+            this.btnAcceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAcceder.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnAcceder.Location = new System.Drawing.Point(36, 207);
+            this.btnAcceder.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAcceder.Image = global::Presentacion.UI.Properties.Resources.user_v135x35;
+            this.btnAcceder.Location = new System.Drawing.Point(37, 312);
             this.btnAcceder.Name = "btnAcceder";
-            this.btnAcceder.Size = new System.Drawing.Size(120, 50);
-            this.btnAcceder.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAcceder.TabIndex = 12;
-            this.btnAcceder.Text = "Acceder";
+            this.btnAcceder.Size = new System.Drawing.Size(270, 50);
+            this.btnAcceder.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2013;
+            this.btnAcceder.TabIndex = 3;
+            this.btnAcceder.Text = "ACCEDER";
+            this.btnAcceder.TextColor = System.Drawing.Color.Black;
             this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
             // btnCacelar
             // 
             this.btnCacelar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnCacelar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnCacelar.Location = new System.Drawing.Point(189, 207);
+            this.btnCacelar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCacelar.Image = global::Presentacion.UI.Properties.Resources.exit35x35;
+            this.btnCacelar.Location = new System.Drawing.Point(37, 389);
             this.btnCacelar.Name = "btnCacelar";
-            this.btnCacelar.Size = new System.Drawing.Size(120, 50);
+            this.btnCacelar.Size = new System.Drawing.Size(270, 50);
             this.btnCacelar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnCacelar.TabIndex = 12;
-            this.btnCacelar.Text = "Cancelar";
+            this.btnCacelar.TabIndex = 4;
+            this.btnCacelar.Text = "CANCELAR";
             this.btnCacelar.Click += new System.EventHandler(this.btnCacelar_Click);
-            // 
-            // lblAcceder
-            // 
-            // 
-            // 
-            // 
-            this.lblAcceder.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAcceder.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAcceder.Location = new System.Drawing.Point(120, 21);
-            this.lblAcceder.Name = "lblAcceder";
-            this.lblAcceder.Size = new System.Drawing.Size(113, 42);
-            this.lblAcceder.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2013;
-            this.lblAcceder.TabIndex = 13;
-            this.lblAcceder.Text = "Acceder";
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 307);
-            this.Controls.Add(this.lblAcceder);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(340, 495);
             this.Controls.Add(this.btnCacelar);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.lblUsuarioClave);
@@ -247,6 +251,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
@@ -271,6 +276,5 @@
         private System.Windows.Forms.TextBox txtUsuarioNombre;
         private DevComponents.DotNetBar.ButtonX btnAcceder;
         private DevComponents.DotNetBar.ButtonX btnCacelar;
-        private DevComponents.DotNetBar.LabelX lblAcceder;
     }
 }

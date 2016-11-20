@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Presentacion.UI.Areas.Tickets
 {
-    public partial class Search : Form
+    public partial class Search : DevComponents.DotNetBar.Metro.MetroForm
     {
         public Search()
         {

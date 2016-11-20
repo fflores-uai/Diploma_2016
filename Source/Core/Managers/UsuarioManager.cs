@@ -8,5 +8,10 @@ namespace Core
 {
     public class UsuarioManager
     {
+
+        public void IniciarSesion(string nombre, string clave)
+        { 
+
+        }
     }
 }
