@@ -19,7 +19,7 @@ namespace Presentacion.UI.Areas
 
         private void btnCacelar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void btnAcceder_Click(object sender, EventArgs e)

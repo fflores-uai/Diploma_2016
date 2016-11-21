@@ -134,8 +134,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\monitor50x50.png" />
     <None Include="Resources\user_v135x35.png" />
     <None Include="Resources\exit35x35.png" />
+    <None Include="Resources\bookW50x50.png" />
     <Content Include="Resources\Login.jpg" />
     <None Include="Resources\User35x35.png" />
     <None Include="Resources\BotonBlack.jpg" />
