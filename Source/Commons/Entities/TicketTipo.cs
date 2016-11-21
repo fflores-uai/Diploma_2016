@@ -11,7 +11,10 @@ namespace Commons.Entities
 
         public enum Options
         {
-
+            Local = 1,
+            Redes = 2,
+            Infraestructura = 3,
+            Seguridad = 4
         }
 
         public int ID { get; set; }

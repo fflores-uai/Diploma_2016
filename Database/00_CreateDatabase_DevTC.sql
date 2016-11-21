@@ -1,0 +1,4 @@
+USE master
+CREATE DATABASE Dev_TCD
+GO
+USE Dev_TCD

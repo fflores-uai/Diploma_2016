@@ -13,8 +13,10 @@ namespace Commons.Entities
         {
             Borrador = 1,
             Pendiente = 2,
-            EnProceso = 3,
-            Finalizado = 4
+            Observacion = 3,
+            Finalizado = 4,
+            Cerrado = 5,
+            Inconcluso = 6
         }
 
         public int ID { get; set; }
