@@ -33,6 +33,7 @@ namespace Presentacion.UI.Areas
         {
             lblUsuarioNombre.ForeColor = Color.White;
             lblUsuarioClave.ForeColor = Color.White;
+            
 
         }
     }

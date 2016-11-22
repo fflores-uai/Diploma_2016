@@ -41,11 +41,18 @@
   <ItemGroup>
     <Compile Include="Encriptacion\Encriptador.cs" />
     <Compile Include="Correo\Mailer.cs" />
+    <Compile Include="Idioma\Global.cs" />
     <Compile Include="Log\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Reportes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commons\Commons.csproj">
+      <Project>{1fec8fc1-9e47-4d3c-9f87-24fb3cffb52c}</Project>
+      <Name>Commons</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

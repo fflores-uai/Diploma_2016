@@ -198,10 +198,10 @@
             // btnAcceder
             // 
             this.btnAcceder.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAcceder.BackColor = System.Drawing.Color.Black;
+            this.btnAcceder.BackColor = System.Drawing.Color.Maroon;
             this.btnAcceder.BackgroundImage = global::Presentacion.UI.Properties.Resources.BotonBlack;
             this.btnAcceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAcceder.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnAcceder.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
             this.btnAcceder.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAcceder.Image = global::Presentacion.UI.Properties.Resources.user_v135x35;
             this.btnAcceder.Location = new System.Drawing.Point(37, 312);
@@ -216,7 +216,7 @@
             // btnCacelar
             // 
             this.btnCacelar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCacelar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnCacelar.ColorTable = DevComponents.DotNetBar.eButtonColor.Flat;
             this.btnCacelar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCacelar.Image = global::Presentacion.UI.Properties.Resources.exit35x35;
             this.btnCacelar.Location = new System.Drawing.Point(37, 389);
@@ -251,7 +251,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);

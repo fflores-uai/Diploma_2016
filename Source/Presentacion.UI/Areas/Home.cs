@@ -1,4 +1,7 @@
-﻿namespace Presentacion.UI.Areas
+﻿using Servicios.Idioma;
+using System.Drawing;
+
+namespace Presentacion.UI.Areas
 {
     public partial class Home : DevComponents.DotNetBar.Metro.MetroForm
     {
@@ -9,18 +12,25 @@
             InitializeComponent();
             mtpMenu.Refresh();
             Traducir();
+            ApplyStyle();
+
+        }
+
+        private void ApplyStyle()
+        {
+            TitlePanel.BackColor = Color.AliceBlue;
+            
         }
 
         private void Traducir()
         {
-            btnTickets.Text = string.Format(TITLETEMPLATE, GetName(this.btnTickets.Name));
-            btnTickets.TitleText = this.btnTickets.Name;
+            btnTickets.Text = string.Format(TITLETEMPLATE, this.btnTickets.Name.AsTitle().Traducir());
+            btnTickets.TitleText = this.btnTickets.Name.Traducir();
             btnTickets.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.RedViolet;
+
+            
+            //var a = "hola".GetValue();
         }
 
-        public string GetName(string value)
-        {
-            return value + "Title";
-        }
     }
 }
